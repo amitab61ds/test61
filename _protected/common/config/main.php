@@ -28,10 +28,12 @@ return [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
-		'urlManager' => [
-			'enablePrettyUrl' => true,
-			'showScriptName' => false,
-		],
+
+        'urlManager' => [
+            'class' => 'yii\web\UrlManager',
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,	
+		],			
         'session' => [
             'class' => 'yii\web\DbSession',
         ],
@@ -52,18 +54,7 @@ return [
                 ],
             ],
         ],
-		'user' => [
-			'identityClass' => 'common\models\User',
-			'enableSession' => false,
-			'loginUrl' => null,
-		],
-		'request' => [
-			'class' => '\yii\web\Request',
-			'enableCookieValidation' => false,
-			'parsers' => [
-				'application/json' => 'yii\web\JsonParser',
-			],
-		],
+
     ], // components
 
     // set allias for our uploads folder so it can be shared by both frontend and backend applications
