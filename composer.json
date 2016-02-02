@@ -18,7 +18,8 @@
         "mihaildev/yii2-ckeditor": "*",
 		"bower-asset/angular": "*",
 		"bower-asset/angular-route": "*",
-		"bower-asset/angular-strap": "*"
+		"bower-asset/angular-strap": "*",
+        "yiidoc/yii2-redactor": "*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

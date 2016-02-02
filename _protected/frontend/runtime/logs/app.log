@@ -3837,3 +3837,72 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1454330026.202
     'REQUEST_TIME' => 1454330026
 ]
+2016-02-02 13:18:39 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "backedn".' in D:\xampp\htdocs\angularyii\_protected\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\xampp\htdocs\angularyii\_protected\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('backedn', Array)
+#1 D:\xampp\htdocs\angularyii\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\angularyii\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\angularyii\_protected\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\xampp\htdocs\angularyii\_protected\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\angularyii\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-02 13:18:39 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6181699f53e2dc2db6bb960f03917b0d1e44890fdc02ba7079f220896f6ccd33a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cuW9SnAP2lP4VtpP-PdJc40YhLKDjb6-\";}'
+    'PHPSESSID' => 'cei1sma2r25rqbgp78r7srqvo7'
+    '_identity' => '18e27dabbcc0179bc8eeac1ad4a85a9cb14cdfe33c0548d6c6f98f5b71844c62a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"fPTKbSXFFPt-Q7d1KPN4KMytAWbu4cGQ\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=6181699f53e2dc2db6bb960f03917b0d1e44890fdc02ba7079f220896f6ccd33a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cuW9SnAP2lP4VtpP-PdJc40YhLKDjb6-%22%3B%7D; PHPSESSID=cei1sma2r25rqbgp78r7srqvo7; _identity=18e27dabbcc0179bc8eeac1ad4a85a9cb14cdfe33c0548d6c6f98f5b71844c62a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22fPTKbSXFFPt-Q7d1KPN4KMytAWbu4cGQ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Java\\jdk1.8.0_40\\bin;C:\\Users\\asd\\AppData\\Local\\Android\\sdk\\tools;C:\\Users\\asd\\AppData\\Local\\Android\\sdk\\platform-tools;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Users\\asd\\AppData\\Local\\Android\\sdk\\platform-tools;C:\\Users\\asd\\AppData\\Local\\Android\\sdk\\tools;D:\\xampp\\zend-bin;C:\\Users\\asd\\AppData\\Roaming\\npm;C:\\php\\pear;C:\\php\\pear;D:\\xampp\\php\\PEAR'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/angularyii/index.php'
+    'REMOTE_PORT' => '56583'
+    'REDIRECT_URL' => '/angularyii/backedn'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/angularyii/backedn'
+    'SCRIPT_NAME' => '/angularyii/index.php'
+    'PHP_SELF' => '/angularyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1454415519.343
+    'REQUEST_TIME' => 1454415519
+]

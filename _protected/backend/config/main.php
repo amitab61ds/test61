@@ -15,12 +15,15 @@ return [
     'components' => [
         // here you can set theme used for your backend application 
         // - template comes with: 'default', 'slate', 'spacelab' and 'cerulean'
+
         'view' => [
             'theme' => [
-                'pathMap' => ['@app/views' => '@webroot/themes/slate/views'],
-                'baseUrl' => '@web/themes/slate',
+                'pathMap' => ['@app/views' => '@webroot/themes/admin/views'],
+                'baseUrl' => '@web/themes/admin',
             ],
-        ],
+        ],		
+		
+		
         'user' => [
             'identityClass' => 'common\models\UserIdentity',
             'enableAutoLogin' => true,
