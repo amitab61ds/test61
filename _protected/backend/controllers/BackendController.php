@@ -32,23 +32,8 @@ class BackendController extends Controller
                         'roles' => ['admin'],
                     ],
                     [
-                        'controllers' => ['global-setting','parent-menu','pages'],
-                        'actions' => ['delete'],
-                        'allow' => true,
-                       'roles' => ['theCreator'],
+                        // other rules
                     ],
-					[
-                        'controllers' => ['cmenu'],
-                        'actions' => ['delete'],
-                        'allow' => true,
-                       'roles' => ['admin'],
-                    ],
-	                [
-                        'controllers' => ['global-setting','parent-menu','cmenu','uploadfile','pages'],
-                        'actions' => ['index', 'view', 'create', 'update','viewmenus','c-menu','values','status','url','browse','inactive','active'],
-                        'allow' => true,
-                       'roles' => ['admin'],
-                    ],				
 
                 ], // rules
 

@@ -3,10 +3,6 @@ return [
     'name' => 'My Company',
     //'language' => 'sr',
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
-	'bootstrap' => [
-		'log',
-		'common\config\settings',
-    ],
     'components' => [
         'assetManager' => [
             'bundles' => [
@@ -60,14 +56,7 @@ return [
         ],
 
     ], // components
-	'modules' => [
-		'redactor' => [
-            'class' => 'yii\redactor\RedactorModule',
-            'uploadDir' => '@webroot/uploads/images',
-            'uploadUrl' => '@web/uploads/images',
-            'imageAllowExtensions'=>['jpg','png','gif']
-        ],		
-	],
+
     // set allias for our uploads folder so it can be shared by both frontend and backend applications
     // @appRoot alias is definded in common/config/bootstrap.php file
     'aliases' => [
